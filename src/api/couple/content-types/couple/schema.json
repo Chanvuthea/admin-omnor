@@ -1,0 +1,89 @@
+{
+  "kind": "collectionType",
+  "collectionName": "couples",
+  "info": {
+    "singularName": "couple",
+    "pluralName": "couples",
+    "displayName": "couple"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "couple_id": {
+      "type": "uid"
+    },
+    "list_family_name": {
+      "type": "json"
+    },
+    "floral_button_background": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "fong_logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "content_invitation": {
+      "type": "text"
+    },
+    "content_location": {
+      "type": "text"
+    },
+    "content_agenda": {
+      "type": "json"
+    },
+    "photo_booth": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "youtube_id": {
+      "type": "string"
+    },
+    "content_thnakyou": {
+      "type": "json"
+    },
+    "background_sound": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}
